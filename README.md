@@ -1,2 +1,2 @@
-# Pascal-s_Triangle_Iterative
-My initial solution to Pascal's Triangle in JavaScript
+# Pascals_Triangle_Iterative
+My initial (iterative) solution to Pascal's Triangle in JavaScript
