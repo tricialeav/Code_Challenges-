@@ -16,12 +16,14 @@
         // We're starting at row two, so the initial value for prevRow will be the last in the pascalArray
         let prevRow = pascalArray[1]; 
 
-        // The following for loops calculate the values on the inside of the triangle, while manually adding in the first and last values of 1 to our nextRow array 
+        // The following for loops calculate the values on the inside of the triangle, while manually adding in the 
+        // first and last values of 1 to our nextRow array 
         let nextRow = []; 
         for (let i = 2; i < num; i ++) {
             nextRow.push(1); 
             
-            // The NaN check makes sure that we are only calculating the interior portion of our triangle (and that we don't have NaN returned to our nextRow array)
+            // The NaN check makes sure that we are only calculating the interior portion of our triangle 
+            //(and that we don't have NaN returned to our nextRow array)
             for (let j = 0; j < prevRow.length; j ++) {
                 if (!isNaN(prevRow[j + 1])) {
                     nextRow.push(prevRow[j] + prevRow[j + 1]); 
