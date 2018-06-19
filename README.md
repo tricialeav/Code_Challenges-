@@ -1,2 +1,3 @@
-# Pascals_Triangle_Iterative
-My initial (iterative) solution to Pascal's Triangle in JavaScript
+# Code_Challenges
+
+This repo contains my solutions to common JavaScript coding challenges. 
